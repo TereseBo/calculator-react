@@ -1,0 +1,13 @@
+.calculator{
+    width: 500px;
+     display: grid;
+ 
+    grid-template-columns: repeat(4, 4rem);
+    grid-template-rows: repeat(5, 4rem);
+}
+.numbers{
+    grid-column: 1 / 4;
+    grid-row: 2 / 5;
+    background-color: aqua;
+   
+}

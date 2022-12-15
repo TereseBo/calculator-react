@@ -1,0 +1,12 @@
+.calcbase{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    grid-column: 1/4;
+    grid-row: 2/5;
+}
+.calcbase > :last-child{
+    align-self: flex-end;
+    justify-content: center;
+    background-color: aqua;
+}

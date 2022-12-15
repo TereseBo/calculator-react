@@ -1,0 +1,19 @@
+.box{
+
+    font-weight: bold;
+    box-sizing: border-box;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+
+    display: inline-block;
+ 
+    border: 3px ridge rgb(111, 30, 141);
+    list-style: none;
+}
+.box > p{
+    font-size: 2rem;
+
+    margin: auto;
+    line-height: 100px;
+}
